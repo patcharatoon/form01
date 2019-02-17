@@ -1,3 +1,5 @@
-<p>
-  detail works!
-</p>
+<p>First Name : {{user?.firstName|| '-'}}</p>
+<p>Last Name : {{user?.lastName ||'-'}}</p>
+<p>Age : {{user?.age || 0}}</p> 
+<p>E-mail : {{user? user.email : '-'}}</p>
+<!-- ถ้า user มีค่า(true)ให้ทำข้างหน้า ถ้า user ไม่มีค่า(false)ให้ทำข้างหลัง -->

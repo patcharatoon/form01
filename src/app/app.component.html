@@ -1,8 +1,8 @@
 <div>
-  <app-form></app-form>
+  <app-form (change)="onChange($event)"></app-form>
 
 </div>
 <div>
-  <app-detail></app-detail>
+  <app-detail [user]="user"></app-detail>
 
 </div>
